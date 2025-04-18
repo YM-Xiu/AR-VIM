@@ -39,22 +39,10 @@ The dataset is structured around two key taxonomies:
 
 For each video pair, the raw and AR videos are identical at the pixel level until a specific time point, at which the virtual content appears in the AR video. This virtual content may or may not result in a visual information manipulation attack.
 
-<div style="display: flex; gap: 20px;">
-  <div style="flex: 1; text-align: center;">
-    <video width="100%" autoplay loop muted playsinline>
-      <source src="imgs/Augmented_Recordings_A_004.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p><b>Raw Video</b></p>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <video width="100%" autoplay loop muted playsinline>
-      <source src="imgs/Raw_Recordings_A_004.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p><b>Augmented Video</b></p>
-  </div>
-</div>
+![Raw Video](imgs/raw.gif)
+![Augmented Video](imgs/ar.gif)
+
+
 
 
 
