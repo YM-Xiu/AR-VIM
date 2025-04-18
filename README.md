@@ -105,8 +105,8 @@ Pattern Manipulation + Extra Wrong Information/
 
 To ensure that the attack labels in this dataset align with human perception, we conducted a user study under an IRB-approved protocol. Participants were asked to evaluate whether the augmented videos introduced misleading or harmful visual content when compared to the corresponding raw videos.
 
-<figure>
-  <img src="imgs/datasethd.png" alt="Description" width="1200"/>
+<p align="center">
+  <img src="imgs/likert.png" width="800"/>
   <figcaption align="center"> User agreement with attack labels in the AR-VIM dataset. (a): The overall distribution of Likert-scale responses. (b)-(h): Likert responses for all seven attack types:
 (b) Character replacement,
 (c) Phrase replacement,
@@ -115,7 +115,7 @@ To ensure that the attack labels in this dataset align with human perception, we
 (f) Pattern replacement,
 (g) Pattern obfuscation,
 (h) Pattern extra info.</figcaption>
-</figure>
+</p>
 
 ### IRB Approval
 
