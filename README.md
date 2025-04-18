@@ -23,6 +23,41 @@ The dataset is structured around two key taxonomies:
   - Information Obfuscation: The virtual content hides or masks important real-world content, reducing visibility or clarity.
   - Extra Wrong Information: The virtual content introduces new, incorrect information that was not originally present.
 
+<figure>
+  <img src="imgs/datasethd.png" alt="Description" width="1200"/>
+  <figcaption align="center"><b>Figure 1.</b> Samples from the AR-VIM dataset. Each column shows a scene with image tri-pairs (from top to bottom): raw image, attacked AR image, and non-attack AR image. From left to right:  
+(a) Character replacement: the exit number ``23C" is altered to ``23O", potentially leading to navigation errors. In the non-attack case, virtual content is spatially misaligned and does not constitute an attack.
+(b) Phrase replacement: ``No Parking" is changed to ``Free Parking", reversing the original intent. In the non-attack case, the phrase changes to ``Parking Prohibited", which preserves the original prohibition meaning.  
+(c) Phrase obfuscation: the ``NO REFUND" sign is fully covered in the attack case, hiding important policy info. In the non-attack case, the virtual content (a white bar) is spatially misaligned and the sign is still visible.
+(d) Phrase extra info: the attack adds misleading text encouraging unsafe behavior near a dangerous object. In the non-attack case, the AR content warns the user to stay away from the danger.  
+(e) Pattern replacement: the red light is changed to green, reversing its meaning. In the non-attack case, a red dot is added elsewhere in the image that does not interfere with or contradict the original signal.
+(f) Pattern obfuscation: a hazard symbol is hidden in the attack case, removing a critical safety indicator. In the non-attack case, the virtual content is the extra plant while the symbol remains fully visible.  
+(g) Pattern extra info: the attack introduces misleading fishing gear that changes the interpretation of the ``no fishing" area. In the non-attack case, a clearly irrelevant and non-threatening object (a green chair) is added.</figcaption>
+</figure>
+
+### Video Description
+
+For each video pair, the raw and AR videos are identical at the pixel level until a specific time point, at which the virtual content appears in the AR video. This virtual content may or may not result in a visual information manipulation attack.
+
+<div style="display: flex; gap: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <video width="100%" autoplay loop muted playsinline>
+      <source src="videos/raw_sample.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p><b>Raw Video</b></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <video width="100%" autoplay loop muted playsinline>
+      <source src="videos/ar_sample.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p><b>Augmented Video</b></p>
+  </div>
+</div>
+
+
+
 ### Video Details
 
   - Total Video Pairs: 307 raw-augmented pairs across 133 unique scenes
