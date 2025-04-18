@@ -39,8 +39,11 @@ The dataset is structured around two key taxonomies:
 
 For each video pair, the raw and AR videos are identical at the pixel level until a specific time point, at which the virtual content appears in the AR video. This virtual content may or may not result in a visual information manipulation attack.
 
-![Raw Video](imgs/raw.gif)
-![Augmented Video](imgs/ar.gif)
+<div align="center">
+  <img src="imgs/raw.gif" width="45%" alt="Raw Video">
+  <img src="imgs/ar.gif" width="45%" alt="Augmented Video">
+  <p><b>Figure 1:</b> Left: Raw video without AR content, shwoing a street. Right: Augmented video with virtual content (The U-turn mark on the street), which lead to a VIM attack.</p>
+</div>
 
 
 
