@@ -42,14 +42,14 @@ For each video pair, the raw and AR videos are identical at the pixel level unti
 <div style="display: flex; gap: 20px;">
   <div style="flex: 1; text-align: center;">
     <video width="100%" autoplay loop muted playsinline>
-      <source src="videos/raw_sample.mp4" type="video/mp4">
+      <source src="imgs/Augmented_Recordings_A_004.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p><b>Raw Video</b></p>
   </div>
   <div style="flex: 1; text-align: center;">
     <video width="100%" autoplay loop muted playsinline>
-      <source src="videos/ar_sample.mp4" type="video/mp4">
+      <source src="imgs/Raw_Recordings_A_004.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p><b>Augmented Video</b></p>
