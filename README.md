@@ -25,7 +25,7 @@ The dataset is structured around two key taxonomies:
 
 <figure>
   <img src="imgs/datasethd.png" alt="Description" width="1200"/>
-  <figcaption align="center"><b>Figure 1.</b> Samples from the AR-VIM dataset. Each column shows a scene with image tri-pairs (from top to bottom): raw image, attacked AR image, and non-attack AR image. From left to right:  
+  <figcaption align="center"> Samples from the AR-VIM dataset. Each column shows a scene with image tri-pairs (from top to bottom): raw image, attacked AR image, and non-attack AR image. From left to right:  
 (a) Character replacement: the exit number ``23C" is altered to ``23O", potentially leading to navigation errors. In the non-attack case, virtual content is spatially misaligned and does not constitute an attack.
 (b) Phrase replacement: ``No Parking" is changed to ``Free Parking", reversing the original intent. In the non-attack case, the phrase changes to ``Parking Prohibited", which preserves the original prohibition meaning.  
 (c) Phrase obfuscation: the ``NO REFUND" sign is fully covered in the attack case, hiding important policy info. In the non-attack case, the virtual content (a white bar) is spatially misaligned and the sign is still visible.
@@ -37,12 +37,12 @@ The dataset is structured around two key taxonomies:
 
 ### Video Description
 
-For each video pair, the raw and AR videos are identical at the pixel level until a specific time point, at which the virtual content appears in the AR video. This virtual content may or may not result in a visual information manipulation attack.
+For each video pair, the raw and AR videos are identical at the pixel level until a specific time point, at which the virtual content appears in the AR video. This virtual content may or may not result in a VIM attack.
 
 <div align="center">
   <img src="imgs/raw.gif" width="45%" alt="Raw Video">
   <img src="imgs/ar.gif" width="45%" alt="Augmented Video">
-  <p><b>Figure 1:</b> Left: Raw video without AR content, shwoing a street. Right: Augmented video with virtual content (The U-turn mark on the street), which lead to a VIM attack.</p>
+  <p> Left: Raw video without AR content. Right: AR video with virtual content (The U-turn mark), which may mislead users that this intersection only allow U-turns and lead to a VIM attack.</p>
 </div>
 
 
@@ -100,6 +100,26 @@ Pattern Manipulation + Extra Wrong Information/
 ├── Raw_Recordings_N_001.mp4
 └── ...
 ```
+
+## User Validation
+
+To ensure that the attack labels in this dataset align with human perception, we conducted a user study under an IRB-approved protocol. Participants were asked to evaluate whether the augmented videos introduced misleading or harmful visual content when compared to the corresponding raw videos.
+
+<figure>
+  <img src="imgs/datasethd.png" alt="Description" width="1200"/>
+  <figcaption align="center"> User agreement with attack labels in the AR-VIM dataset. (a): The overall distribution of Likert-scale responses. (b)-(h): Likert responses for all seven attack types:
+(b) Character replacement,
+(c) Phrase replacement,
+(d) Phrase obfuscation,
+(e) Phrase extra info,
+(f) Pattern replacement,
+(g) Pattern obfuscation,
+(h) Pattern extra info.</figcaption>
+</figure>
+
+### IRB Approval
+
+The study is Institutional Review Board (IRB)-approved. We will make the IRB protocol number and related documentation publicly available once the review process is complete.
 
 
 
