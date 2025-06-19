@@ -105,6 +105,17 @@ This pipeline captures real AR experiences using a headset in physical environme
   - Resolution: 480 × 1080 pixels (monitor-based) / 960 × 1280 pixels (real-world).
   - Frame Rate: 15 FPS
 
+### Data Distribution
+
+AR-VIM dataset consists of 452 video pairs, each containing a raw video and its corresponding augmented version. These pairs span a total of 202 unique scenes of AR experiences. Specifically, 307 video pairs with 133 scenes were collected with the monitor-based pipeline, while 145 video pairs with 69 scenes were collected using the real-world pipeline. The detailed data distribution is shown in the table below.
+
+<figure>
+  <img src="imgs/dataset_distribution.png" alt="Description" width="1200"/>
+  <figcaption align="center"> </figcaption>
+</figure>
+
+
+
 ## Dataset Structure
 
 The dataset can be accesssed through this [link](https://drive.google.com/drive/folders/1TbgY8RNR3sg3H1ItCSYenpZ3MRjmZlIC?usp=drive_link).
