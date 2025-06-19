@@ -186,15 +186,25 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
 ### Main Result
 
 <figure>
-  <img src="imgs/datasethd.png" alt="Description" width="1200"/>
+  <img src="imgs/result_all.png" alt="Description" width="1200"/>
   <figcaption align="center"> </figcaption>
 </figure>
 
 
 ### Result of Monitor-Based Data
 
+<figure>
+  <img src="imgs/result_monitor.png" alt="Description" width="1200"/>
+  <figcaption align="center"> </figcaption>
+</figure>
+
 
 ### Result of Real-World Data
+
+<figure>
+  <img src="imgs/result_real.png" alt="Description" width="1200"/>
+  <figcaption align="center"> </figcaption>
+</figure>
 
 ## IRB Approval
 
