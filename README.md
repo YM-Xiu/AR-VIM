@@ -174,9 +174,11 @@ Pattern Manipulation + Extra Wrong Information/
 └── ...
 ```
 
-## User Validation
+## User-Based Data Validation
 
-To ensure that the attack labels in this dataset align with human perception, we conducted a user study under an IRB-approved protocol. Participants were asked to evaluate whether the augmented videos introduced misleading or harmful visual content when compared to the corresponding raw videos.
+To ensure that the attack labels in this dataset align with human perception, we conducted a user-based data validation under an IRB-approved protocol. Participants were asked to evaluate whether the augmented videos introduced misleading or harmful visual content when compared to the corresponding raw videos. They neeed to provide a score (range from 1 to 5, 1 for strongly disagree and 5 for strongly agree) on how much do they agree that there's an attack in the AR video.
+
+The overall agreement level is 4.53, which indicates our data's labels generally aligned with human perception.
 
 <p align="center">
   <img src="imgs/likert.png" width="800"/>
