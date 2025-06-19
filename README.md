@@ -1,5 +1,5 @@
 # AR-VIM Dataset
-This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_", submitted to ISMAR 2025. It introduces **AR-VIM**, a dataset of 306 raw-AR video pairs. 
+This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_", submitted to ISMAR 2025. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
 
 The dataset can be accesssed through this [link](https://drive.google.com/drive/folders/1TbgY8RNR3sg3H1ItCSYenpZ3MRjmZlIC?usp=drive_link).
 
@@ -119,7 +119,17 @@ To ensure that the attack labels in this dataset align with human perception, we
 (h) Pattern extra info.</figcaption>
 </p>
 
-### IRB Approval
+## Results
+
+### Main Result
+
+
+### Result of Monitor-Based Data
+
+
+### Result of Real-World Data
+
+## IRB Approval
 
 The study is Institutional Review Board (IRB)-approved. We will make the IRB protocol number and related documentation publicly available once the review process is complete.
 
