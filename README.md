@@ -5,7 +5,7 @@ The dataset can be accesssed through this [link](https://drive.google.com/drive/
 
 ## Dataset Description
 
-This dataset contains paired Raw and Augmented videos collected to evaluate visual information manipulation (VIM) in augmented reality (AR). Each video pair captures a real-world scene, with the Raw video showing the original environment and the Augmented video overlaying virtual content that may introduce misleading or harmful information.
+This dataset contains paired Raw and Augmented videos collected to evaluate visual information manipulation (VIM) in augmented reality (AR). Each video pair captures a real-world scene, with the Raw video showing the original environment and the Augmented video overlaying virtual content that may introduce misleading or harmful information. 
 
 The dataset is structured around two key taxonomies:
 
