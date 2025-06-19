@@ -27,14 +27,14 @@ The dataset is structured around two key taxonomies:
 
 <figure>
   <img src="imgs/datasethd.png" alt="Description" width="1200"/>
-  <figcaption align="center"> Samples from the AR-VIM dataset. Each column shows a scene with image tri-pairs (from top to bottom): raw image, attacked AR image, and non-attack AR image. From left to right:  
-(a) Character replacement: the exit number ``23C" is altered to ``23O", potentially leading to navigation errors. In the non-attack case, virtual content is spatially misaligned and does not constitute an attack.
-(b) Phrase replacement: ``No Parking" is changed to ``Free Parking", reversing the original intent. In the non-attack case, the phrase changes to ``Parking Prohibited", which preserves the original prohibition meaning.  
-(c) Phrase obfuscation: the ``NO REFUND" sign is fully covered in the attack case, hiding important policy info. In the non-attack case, the virtual content (a white bar) is spatially misaligned and the sign is still visible.
-(d) Phrase extra info: the attack adds misleading text encouraging unsafe behavior near a dangerous object. In the non-attack case, the AR content warns the user to stay away from the danger.  
-(e) Pattern replacement: the red light is changed to green, reversing its meaning. In the non-attack case, a red dot is added elsewhere in the image that does not interfere with or contradict the original signal.
-(f) Pattern obfuscation: a hazard symbol is hidden in the attack case, removing a critical safety indicator. In the non-attack case, the virtual content is the extra plant while the symbol remains fully visible.  
-(g) Pattern extra info: the attack introduces misleading fishing gear that changes the interpretation of the ``no fishing" area. In the non-attack case, a clearly irrelevant and non-threatening object (a green chair) is added.</figcaption>
+  <figcaption align="center"> Samples from the AR-VIM dataset. Each column shows an attack type in a certain scene. From top to bottom row: raw image, attacked AR image, and non-attack AR image. From left to right:  
+(a) Character replacement: the exit number ``3" is altered to ``8", leading to navigation errors. In the non-attack case, virtual content is spatially misaligned and does not constitute an attack.
+(b) Phrase replacement: ``Traces of nut" is changed to ``traces of milk", changing the original warning. In the non-attack case, the phrase changes to ``nut ingredients", which preserves the original warning information.  
+(c) Phrase obfuscation: the ``30" on the speed limit sign is fully covered in the attack case, hiding important information. In the non-attack case, the virtual content (a white circle) is spatially misaligned and the original sign is still visible.
+(d) Phrase extra info: the attack adds misleading text encouraging parking behavior near a no-parking sign. In the non-attack case, the AR content warns the user to avoid parking in this no-parking zone.  
+(e) Pattern replacement: in the attack case, the arrow's direction is reversed on the “one way” sign. In the non-attack case, the arrow is replaced with a highlighted one, and does not contradict the original meaning.
+(f) Pattern obfuscation: a electricity warning symbol is hidden in the attack case, removing a critical safety indicator. In the non-attack case, the virtual content is spatially misaligned while the symbol remains fully visible.
+(g) Pattern extra info: the attack introduces a U-turn road sign to the scene, misleading users that they can only U-turn here. In the non-attack case, a clearly non-threatening object (a plant) is added.</figcaption>
 </figure>
 
 ### Video Description
@@ -181,7 +181,14 @@ To ensure that the attack labels in this dataset align with human perception, we
 
 ## Results
 
+We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provided below. The detail of VIM-Sense and all the baselines can be found in the paper.
+
 ### Main Result
+
+<figure>
+  <img src="imgs/datasethd.png" alt="Description" width="1200"/>
+  <figcaption align="center"> </figcaption>
+</figure>
 
 
 ### Result of Monitor-Based Data
