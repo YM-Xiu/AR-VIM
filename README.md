@@ -26,7 +26,7 @@ The dataset is structured around two key taxonomies:
   - Extra Wrong Information: The virtual content introduces new, incorrect information that was not originally present.
 
 <figure>
-  <img src="imgs/datasethd.png" alt="Description" width="1200"/>
+  <img src="imgs/dataset_new.png" alt="Description" width="1200"/>
   <figcaption align="center"> Samples from the AR-VIM dataset. Each column shows an attack type in a certain scene. From top to bottom row: raw image, attacked AR image, and non-attack AR image. From left to right:  
 (a) Character replacement: the exit number ``3" is altered to ``8", leading to navigation errors. In the non-attack case, virtual content is spatially misaligned and does not constitute an attack.
 (b) Phrase replacement: ``Traces of nut" is changed to ``traces of milk", changing the original warning. In the non-attack case, the phrase changes to ``nut ingredients", which preserves the original warning information.  
