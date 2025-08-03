@@ -221,8 +221,34 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
 
 ## IRB Approval
 
-The study is Institutional Review Board (IRB)-approved. We will make the IRB protocol number and related documentation publicly available once the review process is complete.
+The study is approved by Duke University Campus Institutional Review Board. Protocol number: 2020-0292.
 
+## Citation
+
+If you use AR-VIM dataset in an academic work, please cite: 
+
+```
+@misc{xiu2025detectingvisualinformationmanipulation,
+      title={Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach},
+      author={Yanming Xiu and Maria Gorlatova},
+      year={2025},
+      eprint={2507.20356},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.20356},
+}
+```
+
+
+# Acknowledgement
+
+The authors of this repository are Yanming Xiu and Maria Gorlatova. Contact information of the authors:
+
+ - Yanming Xiu (yanming.xiu AT duke.edu)
+
+ - Maria Gorlatova (maria.gorlatova AT duke.edu)
+
+We thank the participants of our user-based label validation for their invaluable effort and assistance in this research. This work was supported in part by NSF grants CSR-2312760, CNS-2112562, and IIS-2231975, NSF CAREER Award IIS-2046072, NSF NAIAD Award 2332744, a Cisco Research Award, a Meta Research Award, Defense Advanced Research Projects Agency Young Faculty Award HR0011-24-1-0001, and the Army Research Laboratory under Cooperative Agreement Number W911NF-23-2-0224. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the Defense Advanced Research Projects Agency, the Army Research Laboratory, or the U.S. Government. This paper has been approved for public release; distribution is unlimited. No official endorsement should be inferred. The U.S.~Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation herein.
 
 
 
