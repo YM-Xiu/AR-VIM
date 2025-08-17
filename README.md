@@ -181,7 +181,7 @@ To ensure that the attack labels in this dataset align with human perception, we
 The overall agreement level is 4.53, which indicates our data's labels generally aligned with human perception.
 
 <p align="center">
-  <embed src="imgs/likert_chart_12_7.pdf" width="800" type="application/pdf">
+  <img src="imgs/likert_chart_12_7.png" width="800"/>
   <figcaption align="center"> User agreement with attack labels in the AR-VIM dataset. (a): The overall distribution of Likert-scale responses. (b)-(h): Likert responses for all seven attack types:
 (b) Character replacement,
 (c) Phrase replacement,
