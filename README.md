@@ -3,6 +3,8 @@ This is the official repository of the paper "_Detecting Visual Information Mani
 
 The dataset can be accesssed through this [link](https://drive.google.com/drive/folders/1TbgY8RNR3sg3H1ItCSYenpZ3MRjmZlIC?usp=drive_link).
 
+An example usage tutorial of the dataset can be found [here]().
+
 ## Dataset Description
 
 This dataset contains paired Raw and Augmented videos collected to evaluate visual information manipulation (VIM) in augmented reality (AR). Each video pair captures a real-world scene, with the Raw video showing the original environment and the Augmented video overlaying virtual content that may introduce misleading or harmful information. 
