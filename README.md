@@ -1,7 +1,7 @@
 # AR-VIM Dataset
 This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_", submitted to ISMAR 2025. The paper has been cnditionally accepted as a special issue of IEEE TVCG. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
 
-The dataset can be accesssed through this [link](https://drive.google.com/drive/folders/1TbgY8RNR3sg3H1ItCSYenpZ3MRjmZlIC?usp=drive_link).
+The dataset can be accesssed through this [link](https://drive.google.com/drive/u/1/folders/14Mn1oNGIQ8PrKWeKNBtUeizibTCRtz45).
 
 An example usage tutorial of the dataset can be found [here](dataset_usage_example.ipynb).
 
