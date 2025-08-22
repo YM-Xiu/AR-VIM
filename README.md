@@ -1,7 +1,9 @@
 # AR-VIM Dataset
-This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_", submitted to ISMAR 2025. The paper has been cnditionally accepted as a special issue of IEEE TVCG. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
+This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_". The paper has been accepted by 2025 IEEE ISMAR, and also conditionally accepted as a special issue of IEEE TVCG. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
 
 The dataset can be accesssed through this [link](https://drive.google.com/drive/u/1/folders/14Mn1oNGIQ8PrKWeKNBtUeizibTCRtz45).
+
+The paper can be found [here](VIM-Sense_paper.pdf).
 
 An example usage tutorial of the dataset can be found [here](dataset_usage_example.ipynb).
 
@@ -70,7 +72,7 @@ This pipeline overlays virtual content on static background images displayed on 
     - Placement: Content was placed in Unity and rendered onto the designated location on the background image.
 
   - **Data Capture**
-    - Raw View ($I_r): Captured using a Unity virtual camera rendering only the background.
+    - Raw View ($I_r$): Captured using a Unity virtual camera rendering only the background.
     - Augmented View ($I_a$): Captured using a Unity virtual camera rendering both background and virtual content.
     - Device: Samsung Galaxy S25 smartphone.
     - Output: Video pairs.
