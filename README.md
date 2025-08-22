@@ -3,9 +3,9 @@ This is the official repository of the paper "_Detecting Visual Information Mani
 
 The dataset can be accesssed through this [link](https://drive.google.com/drive/u/1/folders/14Mn1oNGIQ8PrKWeKNBtUeizibTCRtz45).
 
-The paper can be found [here](VIM-Sense_paper.pdf).
+The paper can be found here: [pdf](VIM-Sense_paper.pdf)/[ArXiv](https://arxiv.org/abs/2507.20356).
 
-An example usage tutorial of the dataset can be found [here](dataset_usage_example.ipynb).
+An example usage tutorial Jupyter notebok of the dataset can be found [here](dataset_usage_example.ipynb).
 
 ## Dataset Description
 
@@ -48,7 +48,7 @@ For each video pair, the raw and AR videos are identical at the pixel level unti
 <div align="center">
   <img src="imgs/raw.gif" width="45%" alt="Raw Video">
   <img src="imgs/ar.gif" width="45%" alt="Augmented Video">
-  <p> Left: Raw video without AR content. Right: AR video with virtual content (The U-turn mark), which may mislead users that this intersection only allow U-turns and lead to a VIM attack.</p>
+  <p> Left: Raw video without AR content. Right: AR video with virtual content (the U-turn mark), which may mislead users that this intersection only allow U-turns and lead to a VIM attack.</p>
 </div>
 
 ## Data Collection Pipelines
@@ -185,7 +185,7 @@ To ensure that the attack labels in this dataset align with human perception, we
 The overall agreement level is 4.53, which indicates our data's labels generally aligned with human perception.
 
 <p align="center">
-  <img src="imgs/likert_chart_12_7.png" width="800"/>
+  <img src="imgs/likert_chart_12_7.png" width="400"/>
   <figcaption align="center"> User agreement with attack labels in the AR-VIM dataset. (a): The overall distribution of Likert-scale responses. (b)-(h): Likert responses for all seven attack types:
 (b) Character replacement,
 (c) Phrase replacement,
@@ -203,7 +203,7 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
 ### Main Result
 
 <figure>
-  <img src="imgs/result_all.png" alt="Description" width="1200"/>
+  <img src="imgs/result_all.png" alt="Description" width="900"/>
   <figcaption align="center"> </figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
 ### Result of Monitor-Based Data
 
 <figure>
-  <img src="imgs/result_monitor.png" alt="Description" width="1200"/>
+  <img src="imgs/result_monitor.png" alt="Description" width="900"/>
   <figcaption align="center"> </figcaption>
 </figure>
 
@@ -219,7 +219,7 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
 ### Result of Real-World Data
 
 <figure>
-  <img src="imgs/result_real.png" alt="Description" width="1200"/>
+  <img src="imgs/result_real.png" alt="Description" width="900"/>
   <figcaption align="center"> </figcaption>
 </figure>
 
