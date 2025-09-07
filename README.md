@@ -223,7 +223,7 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
   <figcaption align="center"> </figcaption>
 </figure>
 
-### Use AR-VIM for Other Purposes
+## Use AR-VIM for Other Purposes
 
 AR-VIM is originally created for visual information manipulation detection task. However, it can also be used for other tasks such as attack classification, scene understanding, visual question answering, etc.
 
