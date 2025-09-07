@@ -227,7 +227,7 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
 
 AR-VIM is originally created for visual information manipulation detection task. However, it can also be used for other tasks such as attack classification, scene understanding, visual question answering, etc.
 
-We provide a standardized [json file](metadata.json) and [dataloader](dataset.py) for AR-VIM. To use them, you need to put these files in the ARVIM folder:
+We provide a standardized [json file](metadata.json) and [dataloader](dataset.py) for AR-VIM. To use them, you need to put these files in the ARVIM folder. The folder should look like this:
 
 ```
 ARVIM/
@@ -237,14 +237,14 @@ ARVIM/
 └── dataset.py
 ```
 
-Then you can load the videos as well as their ID and other informaiton such as attack format and attack purpose. A usage example is shown below:
+Then you can load the videos as well as their ID and other information such as attack format and attack purpose. A usage example is shown below:
 
-<pre><code>
+```python
 from ARVIM.dataset import ARVIMDataset
 dataset = ARVIMDataset(root="ARVIM")
 print(len(dataset))
 print(dataset[0])
-</code></pre>
+```
 
 ## IRB Approval
 
