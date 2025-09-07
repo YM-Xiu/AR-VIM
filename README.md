@@ -237,7 +237,7 @@ ARVIM/
 └── dataset.py
 ```
 
-Then you can load the videos as well as their ID and other informaiton such as attack format and attack purpose.
+Then you can load the videos as well as their ID and other informaiton such as attack format and attack purpose. A usage example is shown below:
 
 <pre><code>
 from ARVIM.dataset import ARVIMDataset
