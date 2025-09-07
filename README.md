@@ -131,7 +131,7 @@ The dataset is organized under a root directory named AR-VIM/, which contains tw
 
 Both subdirectories follow an identical internal structure, where the data is organized by the type of manipulation (Character, Pattern, or Phrase) and the attack purpose (Information Replacement, Information Obfuscation, or Extra Wrong Information). The structure is as follows:
 ```
-AR-VIM/
+ARVIM/
 ├── Monitor-Based Data/
 │   ├── Character Manipulation + Information Replacement/
 │   ├── Pattern Manipulation + Extra Wrong Information/
@@ -222,6 +222,29 @@ We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provi
   <img src="imgs/result_real.png" alt="Description" width="900"/>
   <figcaption align="center"> </figcaption>
 </figure>
+
+### Use AR-VIM for Other Purposes
+
+AR-VIM is originally created for visual information manipulation detection task. However, it can also be used for other tasks such as attack classification, scene understanding, visual question answering, etc.
+
+We provide a standardized json file and dataloader for AR-VIM. To use them, you need to put these files in the ARVIM folder:
+
+```
+ARVIM/
+├── Monitor-Based Data/
+├── Real-World Data/   
+├── metadata.json
+└── dataset.py
+```
+
+Then you can load the videos as well as their ID and other informaiton such as attack format and attack purpose.
+
+<pre><code>
+from ARVIM.dataset import ARVIMDataset
+dataset = ARVIMDataset(root="ARVIM")
+print(len(dataset))
+print(dataset[0])
+</code></pre>
 
 ## IRB Approval
 
