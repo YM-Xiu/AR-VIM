@@ -208,7 +208,7 @@ The overall agreement level is 4.53, which indicates our data's labels generally
 
 ## Results
 
-We tested our proposed system, **VIM-Sense**, with AR-VIM. The results are provided below. The detail of VIM-Sense and all the baselines can be found in the paper.
+We tested our proposed system, **VIM-Sense**, with AR-VIM. VIM-Sense is a system designed for detecting the visual information manipulation attacks proposed in AR-VIM. The results are provided below. The detail of VIM-Sense and all the baselines can be found in the paper.
 
 ### Main Result
 
