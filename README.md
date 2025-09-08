@@ -278,9 +278,11 @@ If you use AR-VIM dataset in an academic work, please cite:
 
 The authors of this repository are Yanming Xiu and Maria Gorlatova. Contact information of the authors:
 
- - Yanming Xiu (yanming.xiu AT duke.edu)
+ - Yanming Xiu (yanming.xiu AT duke.edu) 
 
  - Maria Gorlatova (maria.gorlatova AT duke.edu)
+
+Please contact Yanming if younhave any questions when using AR-VIM dataset.
 
 We thank the participants of our user-based label validation for their invaluable effort and assistance in this research. This work was supported in part by NSF grants CSR-2312760, CNS-2112562, and IIS-2231975, NSF CAREER Award IIS-2046072, NSF NAIAD Award 2332744, a Cisco Research Award, a Meta Research Award, Defense Advanced Research Projects Agency Young Faculty Award HR0011-24-1-0001, and the Army Research Laboratory under Cooperative Agreement Number W911NF-23-2-0224.
 
