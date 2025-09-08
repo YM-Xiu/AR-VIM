@@ -7,6 +7,16 @@ The paper can be found here: [pdf](VIM-Sense_paper.pdf)/[ArXiv](https://arxiv.or
 
 An example usage tutorial Jupyter notebok of the dataset can be found [here](dataset_usage_example.ipynb).
 
+## Overview
+
+- [Dataset Description](#dataset-description)
+- [Data Collection Pipelines](#data-collection-pipelines)
+- [Dataset Structure](#dataset-structure)
+- [User-Based Data Validation](#user-based-data-validation)
+- [Results](#results)
+- [Use AR-VIM For Other Purposes](#use-ar-vim-for-other-purposes)
+
+
 ## Dataset Description
 
 This dataset contains paired Raw and Augmented videos collected to evaluate visual information manipulation (VIM) in augmented reality (AR). Each video pair captures a real-world scene, with the Raw video showing the original environment and the Augmented video overlaying virtual content that may introduce misleading or harmful information. 
