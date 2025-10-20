@@ -1,7 +1,10 @@
 # AR-VIM Dataset
 This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_". The paper has been accepted by 2025 IEEE ISMAR (**Best Paper Award, Top 1%**), and also conditionally accepted as a special issue of IEEE TVCG. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
 
-The dataset can be accesssed through this [link](https://drive.google.com/drive/u/1/folders/14Mn1oNGIQ8PrKWeKNBtUeizibTCRtz45).
+The dataset is now available on [Hugging Face Datasets](https://huggingface.co/datasets/HarbingerKX/AR-VIM).  
+See [Download Instructions](#download-instructions) for detailed usage and access options.
+
+The dataset can also be accesssed through [Google Drive](https://drive.google.com/drive/u/1/folders/14Mn1oNGIQ8PrKWeKNBtUeizibTCRtz45).
 
 The paper can be found here: [pdf](VIM-Sense_paper.pdf)/[ArXiv](https://arxiv.org/abs/2507.20356).
 
@@ -186,6 +189,47 @@ Pattern Manipulation + Extra Wrong Information/
 ├── ...
 ├── Raw_Recordings_N_001.mp4
 └── ...
+```
+
+## Download Instructions
+
+[**Important Update**]  
+The dataset is also available on **Hugging Face Datasets** for easier access and reproducibility:
+
+[https://huggingface.co/datasets/HarbingerKX/AR-VIM](https://huggingface.co/datasets/HarbingerKX/AR-VIM)
+
+---
+
+### Download Options
+
+#### 1️⃣ Python API (Recommended)
+
+You can directly download the entire dataset (including all subfolders) using the official Hugging Face Hub API:
+
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="HarbingerKX/AR-VIM",
+    repo_type="dataset",
+    local_dir="./AR-VIM",
+    local_dir_use_symlinks=False,  # copy files instead of symlinks
+    resume_download=True            # support resume
+)
+```
+
+#### 2️⃣ Command-Line Interface (CLI) 
+
+Install the Hugging Face CLI first:
+
+```bash
+pip install huggingface_hub
+```
+
+Then download the dataset with:
+
+```bash
+huggingface-cli download HarbingerKX/AR-VIM --repo-type dataset --local-dir ./AR-VIM --resume-download
 ```
 
 ## User-Based Data Validation
