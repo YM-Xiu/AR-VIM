@@ -1,5 +1,5 @@
 # AR-VIM Dataset
-This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_". The paper has been accepted by 2025 IEEE ISMAR, and also conditionally accepted as a special issue of IEEE TVCG. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
+This is the official repository of the paper "_Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach_". The paper has been accepted by 2025 IEEE ISMAR (**Best Paper Award, Top 1%**), and also conditionally accepted as a special issue of IEEE TVCG. It introduces **AR-VIM**, a dataset of 452 raw-AR video pairs. 
 
 The dataset can be accesssed through this [link](https://drive.google.com/drive/u/1/folders/14Mn1oNGIQ8PrKWeKNBtUeizibTCRtz45).
 
