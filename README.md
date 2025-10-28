@@ -311,7 +311,7 @@ If you use AR-VIM dataset in an academic work, please cite:
 ```
 @misc{xiu2025detectingvisualinformationmanipulation,
       title={Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach},
-      journal={To Appear in IEEE Transactions on Visualization and Computer Graphics},
+      journal={IEEE Transactions on Visualization and Computer Graphics},
       author={Yanming Xiu and Maria Gorlatova},
       year={2025},
 }
